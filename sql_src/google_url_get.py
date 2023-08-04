@@ -45,6 +45,6 @@ for query in queries:
                         except:
                             pass
 
-with open("urls.txt", "w") as f:
+with open("./SQL_SRC/urls.txt", "w") as f:
     for result in results:
         f.write(result + "\n")
