@@ -40,7 +40,7 @@ for query in queries:
                                 link = re.sub(r'&sa=.*', '', link)
                             if link and link.find('search?q') == -1 and link.find('google.com') == -1:
                                 if link.startswith("http://") or link.startswith("https://"):
-                                    if link not in results:
+                                    if link not in results:#去重
                                         results.append(link)
                         except:
                             pass

